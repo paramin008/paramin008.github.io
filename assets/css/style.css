@@ -1,15 +1,5 @@
-/*
- * Theme Name: 
- * Theme URI: 
- * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
- * */
-
-/* FONT
-================================================== */
 @font-face {
-  font-family: 'fontello';
+  font-family: 'Kanit', sans-serif;
   src: url('../fonts/fontello.eot?37927580');
   src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'),
        url('../fonts/fontello.woff2?37927580') format('woff2'),
@@ -21,7 +11,7 @@
 }
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -137,7 +127,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 16px;
     color: #212121;
 }
